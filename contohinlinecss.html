@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Corner Café</title>
+    <style>
+        /* Judul Utama Halaman */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            color: #333;
+        }
+
+        /* Kesan transparan agar teks lebih terbaca */
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.9);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(111, 78, 55, 0.9); /* warna cokelat transparan */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            position: absolute;
+            top: 15px;
+            left: 40px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        header h3 {
+            margin-top: 5px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        /* --- Navigasi --- */
+        nav {
+            background-color: #cbb693;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3b2f2f;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #6f4e37;
+            text-decoration: underline;
+        }
+
+        /* Konten Utama */
+        main {
+            padding: 30px;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #6f4e37;
+            border-bottom: 2px solid #cbb693;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        article {
+            background-color: #f7f3ed;
+            padding: 15px;
+            border-left: 4px solid #6f4e37;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        time {
+            font-weight: bold;
+            color: #6f4e37;
+        }
+
+        /* Alamat */
+        address {
+            font-style: normal;
+            margin-top: 20px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-left: 4px solid #cbb693;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #3b2f2f;
+            color: #f0e6d2;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #f0e6d2;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <!-- Header -->
+        <header>
+            <img src="https://via.placeholder.com/80" alt="Coffee Logo">
+            <h1>Coffee Corner Café</h1>
+            <h3>Brewed with Passion, Served with Love</h3>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <!-- Konten Utama -->
+        <main>
+            <section>
+                <h2>Welcome to Coffee Corner!</h2>
+                <p>
+                    Located in the heart of the city, Coffee Corner Café is your perfect spot to relax, 
+                    work, or meet friends while enjoying our freshly brewed coffee and homemade pastries.
+                </p>
+            </section>
+
+            <section>
+                <h2>Our Best-Selling Menu</h2>
+                <ul>
+                    <li>Espresso - Rp 20.000</li>
+                    <li>Croissant - Rp 15.000</li>
+                    <li>Chococino - Rp 25.000</li>
+                    <li>Caramel Latte - Rp 28.000</li>
+                </ul>
+            </section>
+
+            <article>
+                <h3>Upcoming Event</h3>
+                <time datetime="2025-11-05">November 5, 2025</time>
+                <p>
+                    Join our "Latte Art Competition"! Show your coffee creativity and win special prizes.
+                </p>
+            </article>
+
+            <address>
+                <p>
+                    <strong>Address:</strong><br>
+                    Coffee Corner Café<br>
+                    Jl. Mawar No. 15, Surabaya<br>
+                    Telp: 0812-3456-7890
+                </p>
+            </address>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <small>
+                Copyright &copy; 2025 Coffee Corner Café<br>
+                <a href="mailto:coffeecorner@gmail.com">coffeecorner@gmail.com</a>
+            </small>
+        </footer>
+    </div>
+</body>
+</html>
